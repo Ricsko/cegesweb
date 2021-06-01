@@ -27,13 +27,42 @@ body{
     height: 10%;
     background-color: #900C3F;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+
+}
+#capcom_logo{
+    float: right;
 }
 /*menu vezdete*/
-#header > a{
-    height: 100%;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFC300;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+li{
+    float: left;
+    background-color: #FFC300;
+    transition: 350ms ease;
+}
+li a{
+    text-align: center;
+    text-decoration: none;
     display: block;
-    background-color: brown;
+    padding: 30px 30px;
+    
+}
+li:hover{
+    background-color: #0A4DC0;
+}
+a i{
+    color: #ffff;
+    font-size: 30px;
 }
 /*menu vege*/
 
