@@ -27,11 +27,13 @@ body{
     height: 10%;
     background-color: #900C3F;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 
 }
 #capcom_logo{
-    float: right;
+    width: auto;
+    height: 40%;
 }
 /*menu vezdete*/
 ul{
@@ -96,11 +98,18 @@ a i{
         flex-direction: column;
     }
 
-    
-
     #header, #footer{
         width: 100%;
         height: 10%;
+    }
+    
+    #header ul{
+        
+        flex-direction: column;
+    }
+
+    #header li{
+        position: relative;
     }
 
     #articleAside{
@@ -124,4 +133,5 @@ a i{
         width: 100%;
         height: 20%;
     }
+
 }
