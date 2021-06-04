@@ -78,7 +78,6 @@ a i{
 #articleGames{
     width: 100%;
     height: 80%;
-    display: flex;
     background-color: slategrey;
 }
 
@@ -105,6 +104,21 @@ a i{
     width: 20%;
     background-color: royalblue;
 }
+table
+{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+td,th
+{
+    border: 1px solid black;
+}
+
+ #kontakt
+ {
+     border: none;
+     border-collapse: collapse;
+ }
 
 @media  screen and (max-width: 1000px){
     #container{
