@@ -142,7 +142,6 @@ a i{
     }
     
     #header ul{
-        
         flex-direction: column;
     }
 
@@ -150,11 +149,8 @@ a i{
         position: relative;
     }
 
-    
-
     #aside{
         width: 100%;
         height: 20%;
     }
-
 }
