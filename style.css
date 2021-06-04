@@ -62,8 +62,12 @@ li a{
 li:hover{
     background-color: #0A4DC0;
 }
+li:hover i{
+    color: #FFC300;
+}
+
 a i{
-    color: #ffff;
+    color: #0A4DC0;
     font-size: 30px;
 }
 /*menu vege*/
@@ -92,6 +96,7 @@ a i{
     width: 100%;
     height: 80%;
     display: flex;
+    flex-direction: column;
     background-color: slategrey;
 }
 
@@ -153,6 +158,10 @@ td,th
     #header, #footer{
         width: 100%;
         height: 10%;
+    }
+
+    #header{
+        justify-content: space-between;
     }
     
     #header ul{
