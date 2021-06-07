@@ -170,6 +170,9 @@ td,th
     }
 
     #menu{
+        position: absolute;
+        bottom: 0;
+        border-radius: 0;
         width: 100%;
         justify-content: space-between;
     }
