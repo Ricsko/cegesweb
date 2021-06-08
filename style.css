@@ -150,6 +150,12 @@ td,th
     height: 80%;
     background-color: slategrey;
  }
+
+ #article p{
+     margin: 10px;
+     text-align: justify;
+     
+ }
  
  #belepo
  {
