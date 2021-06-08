@@ -32,9 +32,20 @@ body{
 
 }
 
+#kep    
+{
+    width: 364px;
+}
+
+#szoveg
+{
+    font-weight: bold;
+    text-shadow: 0px 0px 5px white;
+    color: #836810;
+}
+
 #footer
 {
-    
     justify-content: center;
 }
 
@@ -142,10 +153,11 @@ td,th
  
  #belepo
  {
+     margin-top: 50px;
      padding: 10px;
      width: 300px;
      max-height: 150px;
-     background-color: yellowgreen;
+     background-color: #FFC300;
      border: 1px solid black;
      border-radius: 10px;
  }
@@ -175,7 +187,23 @@ td,th
 
     #news{
         height: 20% auto;
+        background-color: slategray;
     }
+
+    #footer
+    {
+        display: none;
+    }
+
+    #menu{
+        position: absolute;
+        position: fixed;
+        bottom: 0;
+        border-radius: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
 }
 
 @media screen and (max-width: 500px){
@@ -202,14 +230,7 @@ td,th
         height: 20% auto;
     }
 
-    #menu{
-        position: absolute;
-        position: fixed;
-        bottom: 0;
-        border-radius: 0;
-        width: 100%;
-        justify-content: space-between;
-    }
+    
 
     #news{
         padding-bottom: 50%;
